@@ -5,10 +5,10 @@ plugins {
 
 
 group = 'com.pluscraft'
-version = '1.0-SNAPSHOT'
+version = '0.1-1.19.4'
 
 java {
-    archivesBaseName = 'PlusCraft'
+    archivesBaseName = 'pluscraft'
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
 
@@ -50,7 +50,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
                         // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'PlusCraft'
+            property 'forge.enabledGameTestNamespaces', 'pluscraft'
             
             mods {
                 pluscraft {
@@ -66,7 +66,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-                        property 'forge.enabledGameTestNamespaces', 'PlusCraft'
+                        property 'forge.enabledGameTestNamespaces', 'pluscraft'
             
             mods {
                 pluscraft {
@@ -85,7 +85,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'PlusCraft'
+            property 'forge.enabledGameTestNamespaces', 'pluscraft'
 
             mods {
                 pluscraft {
