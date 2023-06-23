@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pluscraft:block/dim_portal_ns"
+    },
+    "axis=z": {
+      "model": "pluscraft:block/dim_portal_ew"
+    }
+  }
+}

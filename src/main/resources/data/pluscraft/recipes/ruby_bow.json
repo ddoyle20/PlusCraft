@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #-",
+    "# -",
+    " #-"
+  ],
+  "key": {
+    "#": {
+      "item": "pluscraft:ruby"
+    },
+    "-": {
+      "item": "pluscraft:netherite_rod"
+    }
+  },
+  "result": {
+    "item": "pluscraft:ruby_bow",
+    "count": 1
+  }
+}

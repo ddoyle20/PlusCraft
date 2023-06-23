@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#-#",
+    "-x-",
+    "#-#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "-": {
+      "item": "pluscraft:ruby"
+    },
+    "x": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "pluscraft:portal_block_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item.pluscraft.ruby": "Ruby",
+  "item.pluscraft.ruby_sword": "Ruby Sword",
+  "item.pluscraft.netherite_rod": "Netherite Rod",
+  "item.pluscraft.ruby_axe": "Ruby Axe",
+  "item.pluscraft.ruby_helmet": "Ruby Helmet",
+  "item.pluscraft.ruby_chestplate": "Ruby Chestplate",
+  "item.pluscraft.ruby_leggings": "Ruby Leggings",
+  "item.pluscraft.ruby_boots": "Ruby Boots",
+  "item.pluscraft.ruby_bow": "Ruby Bow",
+  "item.pluscraft.ruby_arrow": "Ruby Arrow",
+  "item.pluscraft.ruby_hoe": "Ruby Hoe",
+  "item.pluscraft.ruby_shovel": "Ruby Shovel",
+  "item.pluscraft.ruby_pickaxe": "Ruby Pickaxe",
+  "item.pluscraft.portal_block_core": "Portal Block Core",
+  "block.pluscraft.ruby_block": "Ruby Block",
+  "block.pluscraft.ruby_ore": "Ruby Ore",
+  "block.pluscraft.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.pluscraft.portal_block": "Portal Block",
+  "block.pluscraft.portal_frame_block": "Portal Frame Block",
+  "block.pluscraft.dim_portal": "Dimension Portal Block",
+  "creativemodetab.pluscraft_tab": "PlusCraft"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "pluscraft:ruby"
+    }
+  },
+  "result": {
+    "item": "pluscraft:ruby_boots",
+    "count": 1
+  }
+}
