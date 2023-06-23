@@ -1,0 +1,13 @@
+// 1.19.4	2023-06-23T12:11:45.170799	Block States: pluscraft
+7227cdb328fd28947ddcadf560e1061dae543b2f assets/pluscraft/blockstates/deepslate_ruby_ore.json
+ba985736da4476863f3335a8fdbc633180718cf0 assets/pluscraft/blockstates/portal_frame_block.json
+cce6f40d78990df552a984426bf9852df5d3fc7f assets/pluscraft/blockstates/ruby_block.json
+cdfccd95b9d371dd63bfd002758022adda1c0b9f assets/pluscraft/blockstates/ruby_ore.json
+2b84f356946697af00d34820a3c9374c3d3f1ac1 assets/pluscraft/models/block/deepslate_ruby_ore.json
+7f2af90f8f42dcf7b3a2273bc26a8acc9a9f4739 assets/pluscraft/models/block/portal_frame_block.json
+0ef6826ce146f3a6a936f8333e18e767eba9dbe5 assets/pluscraft/models/block/ruby_block.json
+f852f5cb2362ea560429320d031639c2e9c0f396 assets/pluscraft/models/block/ruby_ore.json
+1df95c0d3dfe56ce72daa3c38e2a2e03d5bd35e7 assets/pluscraft/models/item/deepslate_ruby_ore.json
+639a23140166ba866f62b5d4a6736029dfb7693a assets/pluscraft/models/item/portal_frame_block.json
+6545fc81f6580b8f92ff95b8fb957f541778e44c assets/pluscraft/models/item/ruby_block.json
+b219528d2579be364eb1d81eeb54d987a2a68033 assets/pluscraft/models/item/ruby_ore.json

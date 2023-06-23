@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sculk",
+    "pluscraft:portal_block"
+  ]
+}

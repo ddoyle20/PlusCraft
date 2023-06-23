@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "pluscraft:ruby"
+    }
+  },
+  "result": {
+    "item": "pluscraft:ruby_helmet",
+    "count": 1
+  }
+}
