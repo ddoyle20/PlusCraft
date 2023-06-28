@@ -3,6 +3,8 @@
   "values": [
     "pluscraft:ruby_ore",
     "pluscraft:ruby_block",
-    "pluscraft:deepslate_ruby_ore"
+    "pluscraft:deepslate_ruby_ore",
+    "pluscraft:dim_stone",
+    "pluscraft:dim_cobblestone"
   ]
 }

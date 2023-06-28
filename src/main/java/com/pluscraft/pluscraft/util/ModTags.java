@@ -12,6 +12,8 @@ import net.minecraftforge.common.Tags;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> DIM_STONE_ORE_REPLACEABLES =
+               tag("dim_stone_ore_replaceables");
 
         public static final TagKey<Block> PORTAL_FRAME_BLOCKS
                 = tag("portal_frame_blocks");

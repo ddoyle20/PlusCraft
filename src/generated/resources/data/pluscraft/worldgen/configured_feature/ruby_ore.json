@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "pluscraft:ruby_ore"
+          "Name": "pluscraft:stone_ruby_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -20,6 +20,15 @@
         "target": {
           "predicate_type": "minecraft:tag_match",
           "tag": "minecraft:deepslate_ore_replaceables"
+        }
+      },
+      {
+        "state": {
+          "Name": "pluscraft:stone_ruby_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "pluscraft:dim_stone_ore_replaceables"
         }
       }
     ]

@@ -9,6 +9,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.GrassBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,9 +27,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+    public static final RegistryObject<Block> STONE_RUBY_ORE = registerBlock("stone_ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
+
     public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
@@ -38,6 +41,17 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()));
     public static final RegistryObject<Block> DIM_PORTAL = registerBlockWithoutBlockItem("dim_portal",
             CustomPortalBlock::new);
+
+    public static final RegistryObject<Block> DIM_STONE = registerBlock("dim_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DIM_COBBLESTONE = registerBlock("dim_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DIM_DIRT = registerBlock("dim_dirt",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(0.5f).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> DIM_GRASS_BLOCK = registerBlock("dim_grass_block",
+            () -> new GrassBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(0.6f).randomTicks().sound(SoundType.GRASS)));
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
