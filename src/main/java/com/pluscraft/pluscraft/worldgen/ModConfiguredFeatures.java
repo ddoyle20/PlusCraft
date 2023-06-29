@@ -1,7 +1,9 @@
 package com.pluscraft.pluscraft.worldgen;
 
+import com.google.common.collect.ImmutableList;
 import com.pluscraft.pluscraft.PlusCraft;
 import com.pluscraft.pluscraft.block.ModBlocks;
+import com.pluscraft.pluscraft.util.ModTags;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
@@ -19,19 +21,18 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>>    OVERWORLD_RUBY_ORE_KEY = registerKey("ruby_ore");
+    public static final RuleTest DIM_STONE_ORE_REPLACEABLES = new TagMatchTest(ModTags.Blocks.DIM_STONE_ORE_REPLACEABLES);
+    public static final RuleTest STONE_ORE_REPLACEABLES = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
+    public static final RuleTest DEEPSLATE_ORE_REPLACEABLES = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+    public static final ResourceKey<ConfiguredFeature<?, ?>>    RUBY_ORE = registerKey("ruby_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
-        RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
-        RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
-        RuleTest netherrackReplaceables = new BlockMatchTest(Blocks.NETHERRACK);
-        RuleTest endstoneReplaceables = new BlockMatchTest(Blocks.END_STONE);
+        List<OreConfiguration.TargetBlockState> rubyOres = List.of(
+                OreConfiguration.target(STONE_ORE_REPLACEABLES, ModBlocks.STONE_RUBY_ORE.get().defaultBlockState()),
+                OreConfiguration.target(DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()),
+                OreConfiguration.target(DIM_STONE_ORE_REPLACEABLES, ModBlocks.DIM_STONE_RUBY_ORE.get().defaultBlockState()));
 
-        List<OreConfiguration.TargetBlockState> overworldPlaceholderOres = List.of(OreConfiguration.target(stoneReplaceables,
-                ModBlocks.RUBY_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
-
-        register(context, OVERWORLD_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(overworldPlaceholderOres, 3));
+        register(context, RUBY_ORE, Feature.ORE, new OreConfiguration(rubyOres, 3));
     }
 
 

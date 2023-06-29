@@ -14,11 +14,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
     @Override
     protected void registerStatesAndModels(){
+        //Generates files for block and item models
          blockWithItem(ModBlocks.RUBY_BLOCK);
-         blockWithItem(ModBlocks.RUBY_ORE);
+         blockWithItem(ModBlocks.STONE_RUBY_ORE);
          blockWithItem(ModBlocks.PORTAL_FRAME_BLOCK);
          blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
-         //blockWithItem(ModBlocks.DIM_PORTAL);
+         blockWithItem(ModBlocks.DIM_STONE);
+         blockWithItem(ModBlocks.DIM_COBBLESTONE);
+         blockWithItem(ModBlocks.DIM_DIRT);
+         blockWithItem(ModBlocks.DIM_STONE_RUBY_ORE);
+
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){

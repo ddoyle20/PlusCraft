@@ -12,7 +12,7 @@ import net.minecraft.world.level.dimension.DimensionType;
 
 public class ModDimensions {
     public static final ResourceKey<Level> DIM_KEY = ResourceKey.create(Registries.DIMENSION,
-            new ResourceLocation(PlusCraft.MODID, "dim1"));
+            new ResourceLocation(PlusCraft.MODID, "dim"));
     public static final ResourceKey<DimensionType> DIM_TYPE =
             ResourceKey.create(Registries.DIMENSION_TYPE, DIM_KEY.registry());
     public static void register(){

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "pluscraft:block/ruby_ore"
+    "all": "pluscraft:block/dim_cobblestone"
   }
 }
