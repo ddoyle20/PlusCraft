@@ -33,11 +33,19 @@ public class ModBlockTags extends IntrinsicHolderTagsProvider<Block> {
                 ModBlocks.PORTAL_BLOCK.get(),
                 ModBlocks.PORTAL_FRAME_BLOCK.get(),
                 ModBlocks.RUBY_BLOCK.get(),
-                ModBlocks.STONE_RUBY_ORE.get()
+                ModBlocks.STONE_RUBY_ORE.get(),
+                ModBlocks.DIM_STONE_RUBY_ORE.get()
         );
         tag(BlockTags.MINEABLE_WITH_SHOVEL).add(
                 ModBlocks.DIM_GRASS_BLOCK.get(),
                 ModBlocks.DIM_DIRT.get()
+        );
+        tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(
+                ModBlocks.DIM_STONE.get(),
+                ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                ModBlocks.DIM_COBBLESTONE.get(),
+                ModBlocks.STONE_RUBY_ORE.get(),
+                ModBlocks.DIM_STONE_RUBY_ORE.get()
         );
     }
 }

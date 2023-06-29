@@ -30,7 +30,7 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> rubyOres = List.of(
                 OreConfiguration.target(STONE_ORE_REPLACEABLES, ModBlocks.STONE_RUBY_ORE.get().defaultBlockState()),
                 OreConfiguration.target(DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()),
-                OreConfiguration.target(DIM_STONE_ORE_REPLACEABLES, ModBlocks.STONE_RUBY_ORE.get().defaultBlockState()));
+                OreConfiguration.target(DIM_STONE_ORE_REPLACEABLES, ModBlocks.DIM_STONE_RUBY_ORE.get().defaultBlockState()));
 
         register(context, RUBY_ORE, Feature.ORE, new OreConfiguration(rubyOres, 3));
     }

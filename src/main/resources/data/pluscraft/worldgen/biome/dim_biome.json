@@ -26,6 +26,12 @@
     ]
   },
   "features": [
-      "pluscraft:ruby_ore"
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["pluscraft:ruby_ore"]
   ]
 }

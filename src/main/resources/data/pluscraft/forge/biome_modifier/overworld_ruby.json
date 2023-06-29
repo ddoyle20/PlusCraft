@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#is_overworld",
-  "features": "pluscraft:ruby_placed",
+  "features": "pluscraft:ruby_ore",
   "step": "underground_ores"
 }

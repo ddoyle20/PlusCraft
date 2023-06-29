@@ -24,7 +24,7 @@
       },
       {
         "state": {
-          "Name": "pluscraft:stone_ruby_ore"
+          "Name": "pluscraft:dim_stone_ruby_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

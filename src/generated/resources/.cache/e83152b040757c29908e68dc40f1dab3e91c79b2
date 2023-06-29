@@ -1,4 +1,5 @@
-// 1.19.4	2023-06-27T13:44:20.6010804	Tags for minecraft:block mod id pluscraft
-51aaf9c5999ee327ec3722181f109ca9a1aa7b2f data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.19.4	2023-06-28T13:54:17.87431	Tags for minecraft:block mod id pluscraft
+e7c17427a328677689c0a96ef793e08b2332bd40 data/forge/tags/blocks/needs_netherite_tool.json
+1006f7c88eed0e621aac0e1ba5652569e6568b35 data/minecraft/tags/blocks/mineable/pickaxe.json
 7588ee918196033e4ab2cde5a4fe877f1a895491 data/minecraft/tags/blocks/mineable/shovel.json
 298560f49e566c956040864b1a057f2a2937190b data/pluscraft/tags/blocks/dim_stone_ore_replaceables.json

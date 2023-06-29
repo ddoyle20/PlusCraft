@@ -1,9 +1,10 @@
-// 1.19.4	2023-06-27T13:44:20.6020737	Loot Tables
+// 1.19.4	2023-06-28T13:54:17.8762972	Loot Tables
 73fa276e950e90886b7c5c8baecc0d6ac2bc1bea data/pluscraft/loot_tables/blocks/deepslate_ruby_ore.json
 b661fe0b519b88cadb6b1dedafd8125e96ec66c9 data/pluscraft/loot_tables/blocks/dim_cobblestone.json
 659b65aa6a1d250fa89b56baed471d2c1d864f2b data/pluscraft/loot_tables/blocks/dim_dirt.json
 e68bd2f1d4c4df694c721b9b8225e9d2187bc740 data/pluscraft/loot_tables/blocks/dim_grass_block.json
 1af8034ca2105a5f67cd7e8726de326d66eb3940 data/pluscraft/loot_tables/blocks/dim_stone.json
+85404728ced5b912123f02ef51adb118577915cd data/pluscraft/loot_tables/blocks/dim_stone_ruby_ore.json
 da06f1c1cca46fcd4df68a49d85dc089c782f6b5 data/pluscraft/loot_tables/blocks/portal_block.json
 b57922aadfc6c149e315f040836cd09fdaf1ee21 data/pluscraft/loot_tables/blocks/portal_frame_block.json
 2bb87db9959f5c250868354dff5c86bd85a6f289 data/pluscraft/loot_tables/blocks/ruby_block.json

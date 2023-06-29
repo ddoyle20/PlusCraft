@@ -22,6 +22,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
          blockWithItem(ModBlocks.DIM_STONE);
          blockWithItem(ModBlocks.DIM_COBBLESTONE);
          blockWithItem(ModBlocks.DIM_DIRT);
+         blockWithItem(ModBlocks.DIM_STONE_RUBY_ORE);
 
 
     }

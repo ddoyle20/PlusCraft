@@ -35,6 +35,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.STONE_RUBY_ORE.get(), ModItems.RUBY.get()));
         add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
+        add(ModBlocks.DIM_STONE_RUBY_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.DIM_STONE_RUBY_ORE.get(), ModItems.RUBY.get()));
     }
     @Override
     protected Iterable<Block> getKnownBlocks(){

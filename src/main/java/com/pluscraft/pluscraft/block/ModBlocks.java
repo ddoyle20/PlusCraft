@@ -45,6 +45,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DIM_STONE = registerBlock("dim_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DIM_STONE_RUBY_ORE = registerBlock("dim_stone_ruby_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
     public static final RegistryObject<Block> DIM_COBBLESTONE = registerBlock("dim_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()));

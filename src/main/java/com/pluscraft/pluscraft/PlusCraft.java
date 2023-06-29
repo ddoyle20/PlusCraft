@@ -76,12 +76,14 @@ public class PlusCraft {
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.STONE_RUBY_ORE);
             event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+            event.accept(ModBlocks.DIM_STONE_RUBY_ORE);
             event.accept(ModItems.PORTAL_BLOCK_ITEM);
             event.accept(ModBlocks.PORTAL_FRAME_BLOCK);
             event.accept(ModBlocks.DIM_STONE);
             event.accept(ModBlocks.DIM_COBBLESTONE);
             event.accept(ModBlocks.DIM_DIRT);
             event.accept(ModBlocks.DIM_GRASS_BLOCK);
+
         }
         if(event.getTab() == CreativeModeTabs.COMBAT){
             event.accept(ModItems.RUBY_SWORD);
@@ -99,6 +101,7 @@ public class PlusCraft {
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.STONE_RUBY_ORE);
             event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+            event.accept(ModBlocks.DIM_STONE_RUBY_ORE);
             event.accept(ModItems.PORTAL_BLOCK_ITEM);
             event.accept(ModBlocks.PORTAL_FRAME_BLOCK);
             event.accept(ModItems.RUBY_SWORD);
